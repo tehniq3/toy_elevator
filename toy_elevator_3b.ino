@@ -53,8 +53,8 @@ byte digitArray[12][7] =  // {a,b,c,d,e,f,g}
 #define segf 19 // A5
 #define segg 10
 
-byte tip = 0;  // for common cathode
-// byte tip = 1;  // for common anode
+//byte tip = 0;  // for common cathode
+ byte tip = 1;  // for common anode
 
 void setup() {
 Serial.begin(9600);
